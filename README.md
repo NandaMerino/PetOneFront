@@ -1,27 +1,84 @@
-# Petone
+# Pet One (Front-end)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.6.
+Este repositório contém o código **front-end** do projeto **Pet One**.
 
-## Development server
+## Sumário
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [Descrição](#descrição)
+- [Tecnologias](#tecnologias)
+- [Pré-requisitos](#pré-requisitos)
+- [Configuração do Ambiente](#configuração-do-ambiente)
+- [Autores](#autores)
+- [Repositório back-end](#repositório-back-end)
 
-## Code scaffolding
+## Descrição
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Trabalho academico do 4º período do curso de Engenharia de Software.
+PetOne é um sistema completo de integração de dados veterinários como consultas, exames, vacinas e medicamentos para que o tutor ou outros veterinários possam ter acesso a todo histórico dos animais, composto por um back-end robusto desenvolvido em Spring Boot e um front-end interativo desenvolvido em Angular. O back-end fornece APIs RESTful para operações CRUD (Create, Read, Update, Delete), JPQL e integração com um banco de dados MySQL, enquanto o front-end oferece uma interface de usuário amigável para interagir com essas APIs.
 
-## Build
+## Tecnologias
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Angular
+- TypeScript
+- HTML
+- CSS
+- Node.js
 
-## Running unit tests
+## Pré-requisitos
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- [Node.js](https://nodejs.org/) (versão 14 ou superior)
+- [Angular CLI](https://angular.io/cli)
 
-## Running end-to-end tests
+## Configuração do Ambiente
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. **Clone o repositório:**
 
-## Further help
+   ```sh
+   git clone https://github.com/NandaMerino/PetOneFront.git
+   cd PetOneFront
+   ```
+   
+2. **Instalação de Dependências:**
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+   Instale as dependências do projeto usando npm:
+      
+   ```sh
+   npm install
+   ```
+
+3. **Execução da Aplicação:**
+
+   Execute a aplicação Angular:  
+
+   ```sh 
+   ng serve
+   ```
+
+4. **Acesso à Aplicação:**
+
+   Acesse a aplicação em `http://localhost:4200`.
+     
+     #### Role ADMIN
+     - **login:** `admin@admin.com`
+     - **senha:** `admin`
+
+     #### Role VET
+     - **login:** `uservet@email.com`
+     - **senha:** `vet`
+       
+     #### Role USER
+     - **login:** ir em `cadastrar` na página inicial e criar um cadastro
+     - **senha:** criar a senha ao cadastrar  
+   
+## Autores
+
+- **Bruno Vieira Nobre** - [Bruno Vieira Nobre](https://github.com/BrunoV7)
+- **Fernanda Merino** - [NandaMerino](https://github.com/NandaMerino)
+- **Guilherme Cunha** - [Guilherme Cunha](https://github.com/guilhermecunhadacruz)
+- **Pedro Henrique Roratto** - [Pedro Henrique Roratto](https://github.com/rorxtto)
+- **Rafael Alves de Oliveira** - [Rafael Alves de Oliveira](https://github.com/rafascript)
+
+
+## Repositório Back-end
+
+- [Pet One](https://github.com/NandaMerino/PetOne)
